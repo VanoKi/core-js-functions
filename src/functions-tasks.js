@@ -96,7 +96,7 @@ function getPowerFunction(exponent) {
  */
 function getPolynom(...coefficients) {
   if (coefficients.length !== 0) {
-    return function (x) {
+    return function inner(x) {
       let sum = 0;
 
       for (let i = 0; i < coefficients.length; i += 1) {
