@@ -135,3 +135,4 @@ memoize-draft.js
 retry-draft.js
 logger-draft.js
 partial-arguments-draft.js
+id-generator-draft.js
